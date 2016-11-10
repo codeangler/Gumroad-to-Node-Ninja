@@ -1,0 +1,28 @@
+{
+  "name": "caseys-scratchpad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "pretest": "echo starting tests!!!",
+    "test": "node test",
+    "posttest": "echo thank you for testing",
+    "test-watch": "nodemon test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "express": "^4.14.0",
+    "lodash": "^4.16.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "nodemon": "^1.11.0"
+  }
+}
